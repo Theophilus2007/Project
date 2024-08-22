@@ -1,0 +1,72 @@
+h1 {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    background-color:white;
+    text-align: center;
+}
+h2 {
+    color: white;
+    font-family: cursive;
+}
+body {
+   background: url(FB_IMG_17097541048480653.jpg);
+   background-size:cover;
+   text-decoration: crimson;
+   text-decoration-color: currentColor;
+}
+p {
+   color: white; 
+font-family:cursive;
+text-align: center;
+font-size: 30px;
+}
+h4
+{
+    color: white;
+}
+h6 {
+    color:white;
+    
+}
+button {
+    border: 2px solid
+    blue;
+  background-color:white;  
+  border-radius: 25px;
+  font-size: 25px;
+}
+h3 {
+    color:white;
+   text-align: center;
+   font-family: cursive;
+}
+h5 {
+    font-size: 20px;
+color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+input {
+    border-radius: 30px;
+    font-size: 25px;
+}
+select {
+    border-radius: 30px;
+    font-size: 20px;
+}
+image
+{
+    font: size 100px;
+
+}
+.container {
+    width: 500px;
+    height: 950x;
+    background: url(FB_IMG_17097541048480653.jpg);
+    margin: 0 auto;
+    text-align: center;
+    display: -moz-inline-box;
+}
+.label {
+    color: blue;
+}

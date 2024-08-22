@@ -1,0 +1,227 @@
+body{
+    background-color: rgb(23, 24, 58);
+    color: white;
+      border-radius: 10px;
+    border: none;
+}
+.sub-con{
+    display: flex;
+    border-radius: 10px;
+    border: none;
+}
+
+
+#name::placeholder{
+    opacity: 100%;
+    color: orangered;
+    font-size: larger;
+    font-family: cursive;
+    border-radius: 10px;
+    border: none;
+}
+#name{
+    margin-top: 50px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: orangered;
+    font-family: cursive;
+}
+.container{
+    margin: auto;
+    height: 600px;
+    width: 900px;
+    background: rgb(25, 25, 46);
+    font-family: cursive;
+    border-radius: 10px;
+    border: none;
+}
+.main{
+    display: flex;
+    gap: 5px;
+    margin: auto;
+    font-family: cursive;
+    border-radius: 10px;
+    border: none;
+}
+.label{
+    display: grid;
+    gap: 20px;
+    margin-left: 50px;
+    font-family: cursive;
+    border-radius: 10px;
+    border: none;
+    border-radius: 10px;
+    border: none;
+}
+.inputs{
+    display: grid;
+    margin-left: 30px;
+    font-family: cursive;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.inputs button{
+    width: 100px;
+    margin-top: 5%;
+    padding: 4%;
+    height: 44px;
+    font-family: cursive;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+.num{
+    height: 40px;
+    width: 100px;
+    font-family: cursive;
+    border-radius: 10px;
+    border: none;
+}
+.ans{
+    height: 40px;
+    width: 50px;
+    margin-left: 20px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 10px;
+  
+}
+.ans::placeholder{
+    text-align: center;
+    opacity: 100%;
+    color: rgb(2, 117, 194);
+    font-family: cursive;
+    border-radius: 10px;
+    border: none;
+}
+.add{
+    margin-left: 15px;
+    height: 46px;
+    width: 60px;
+    padding: 10px;
+    font-family: cursive;
+    border-radius: 10px;
+    border: none;
+    
+}
+.output{
+    margin-left: 200px;
+    display: flex;
+    gap: 20px;
+    font-family: cursive;
+    border-radius: 10px;
+    border: none;
+}
+.grade{
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    padding: 7px;
+    height: 50px;
+    width: 100px;
+    color: rgb(3, 3, 46);
+    font-family: cursive;
+    border-radius: 10px;
+    border: none;
+}
+.grade:hover{
+    background-color: orangered;
+    font-family: cursive;
+    border-radius: 10px;
+    border: none;
+}
+.down{
+    height: 5px;
+    width: 1300px;
+    background-color: orangered;
+    font-family: cursive;
+    border-radius: 10px;
+    border: none;
+}
+.up{
+    margin-bottom: 30px;
+    height: 1px;
+    width: 900px;
+    background-color: orangered;
+    font-family: cursive;
+    border-radius: 10px;
+    border: none;
+}
+.footer{
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    font-family: cursive;
+    border-radius: 10px;
+    border: none;
+}
+
+fieldset{
+    width: 400px;
+    padding: 10px;
+    background-color:#f7f7f7;
+   
+    border-color: white;
+    border-radius: 30px;
+    height: 220px;
+    font-family: cursive;
+
+}
+
+#display{
+background-color: rgb(57, 57, 253);
+border-color: rgb(148, 143, 143);
+border-radius: 5px;
+color: white;
+font-size: 50px;
+}
+
+#start{
+    background-color:#34c759;
+
+}
+
+body{
+   
+    background-color: rgb(57, 57, 253);
+  background-size: cover;
+
+}
+#pause{
+    background-color: #666;
+  
+}
+#reset{
+   background-color:  #c0392b;
+  
+}
+
+button{
+    padding: 20px 40px;
+    font-family: cursive;
+color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: rgb(57, 57, 253);
+}
+h1{
+    color: white;
+    font-family: cursive;
+}
+
+#start:hover{
+    color: blue;
+}
+#pause:hover{
+    color:blue;
+}
+#reset:hover{
+    color: blue;
+}

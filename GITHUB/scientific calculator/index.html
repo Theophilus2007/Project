@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" disabled placeholder="0">
+        <div class="buttons">
+            <button id="d" style="background-color: red;" onclick="clearDisplay()">C</button>
+            <button id="d" style="background-color: red;" onclick="deleteLast()">DEL</button>
+            <button id="d" style="background-color: orange;"onclick="appendValue('sin')">sin</button>
+            <button id="d" style="background-color: orange;" onclick="appendValue('cos')">cos</button>
+            <button id="d" style="background-color: orange;" onclick="appendValue('tan')">tan</button>
+            <button id="d" style="background-color: orange;" onclick="appendValue('log')">log</button>
+            <button id="d" style="background-color: orange;" onclick="appendValue('hyp')">hyp</button>
+            <button id="d" style="background-color: orange;" onclick="appendValue('sqrt')">√</button>
+            <button id="d" style="background-color: orange;" onclick="appendValue('+')">+</button>
+            <button id="d" style="background-color: orange;" onclick="appendValue('-')">-</button>
+            <button id="d" style="background-color: orange;" onclick="appendValue('*')">*</button>
+            <button id="d" style="background-color: orange;" onclick="appendValue('/')">/</button>
+            <button onclick="appendValue('9')">9</button>
+            <button onclick="appendValue('8')">8</button>
+            <button onclick="appendValue('7')">7</button>
+            <button onclick="appendValue('6')">6</button>
+            <button onclick="appendValue('5')">5</button>
+            <button onclick="appendValue('4')">4</button>
+            <button onclick="appendValue('3')">3</button>
+            <button onclick="appendValue('2')">2</button>
+            <button onclick="appendValue('1')">1</button>
+            <button onclick="appendValue('0')">0</button>
+            <button onclick="appendValue('.')">.</button>
+            <button id="d" style="background-color: rgb(78, 129, 1);" onclick="calculateResult()">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
